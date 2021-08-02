@@ -26,6 +26,7 @@ import UIKit
 /**
  IQBarButtonItemConfiguration for creating toolbar with bar button items
  */
+@available(iOSApplicationExtension, unavailable)
 @objc public class IQBarButtonItemConfiguration: NSObject {
 
     #if swift(>=4.2)
@@ -70,6 +71,7 @@ import UIKit
  */
 // swiftlint:disable nesting
 // swiftlint:disable line_length
+@available(iOSApplicationExtension, unavailable)
 @objc public extension UIImage {
 
     static func keyboardLeftImage() -> UIImage? {
@@ -186,6 +188,7 @@ import UIKit
 /**
 UIView category methods to add IQToolbar on UIKeyboard.
 */
+@available(iOSApplicationExtension, unavailable)
 @objc public extension UIView {
 
     private struct AssociatedKeys {
